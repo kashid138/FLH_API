@@ -61,9 +61,10 @@ app.UseDefaultFiles();
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
-               Path.Combine(Directory.GetCurrentDirectory(), "Minimal_Api", "Docs")),
+        Path.Combine(Directory.GetCurrentDirectory(), "Minimal_Api", "Docs")),
     RequestPath = "/docs"
 });
+
 
 
 app.UseCors("AllowAll");
