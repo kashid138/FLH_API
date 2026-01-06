@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "i7Bc0fNIffcabyOyqyjJlN7lmnGVe9k1jlHHvIzldWjPsvmt9Bj7spJTTNRiFuZhw6Kuvs22H/2nUQLHL4abdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Y0345731\\Projects\\Minimal_API\\UploadImage\\UploadImage\\UploadImage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Y0345731\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Y0345731\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Y0345731\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Y0345731\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Y0345731\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Y0345731\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

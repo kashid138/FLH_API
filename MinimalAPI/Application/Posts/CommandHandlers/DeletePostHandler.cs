@@ -1,0 +1,48 @@
+﻿using Application.Abstractions;
+using Application.Posts.Commands;
+using Domain.Models;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.Posts.CommandHandlers
+{
+    //public class DeletePostHandler 
+    //{
+    //private readonly IPostRepository _postsRepo;
+
+    //public DeletePostHandler(IPostRepository postsRepo)
+    //{
+    //    _postsRepo = postsRepo;
+    //}
+
+    ////public async Task<int> Handle(DeletePost request, CancellationToken cancellationToken)
+    ////{
+    ////    await _postsRepo.DeletePost(request.PostId);
+    ////    return Unit.Value;
+    ////}
+
+    //public Task Handle(DeletePost request, CancellationToken cancellationToken)
+    //{
+    //    await _postsRepo.DeletePost(request.PostId);
+    //    return Unit.Value;
+    //}
+    //}
+    public class DeletePostHandler : IRequestHandler<DeletePost>
+    {
+        private readonly IPostRepository _postsRepo;
+
+        public DeletePostHandler(IPostRepository postsRepo)
+        {
+            _postsRepo = postsRepo;
+        }
+
+        public async Task Handle(DeletePost request, CancellationToken cancellationToken)
+        {
+            await _postsRepo.DeletePost(request.PostId);
+        }
+    }
+}
